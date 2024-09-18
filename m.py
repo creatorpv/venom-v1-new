@@ -8,10 +8,10 @@ import os
 from keep_alive import keep_alive
 keep_alive()
 # insert your Telegram bot token here
-bot = telebot.TeleBot('7543594921:AAEb0Qs9usGggKGl0Q-iZ-JimDzJhtv01e0')
+bot = telebot.TeleBot('7487481982:AAF0qWy5_UehXa41X_tGp1T2ICXCgRmHGQI')
 
 # Admin user IDs
-admin_id = ["5894556386"]
+admin_id = ["7374612242"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -149,11 +149,11 @@ def add_user(message):
                 else:
                     response = "Failed to set approval expiry date. Please try again later."
             else:
-                response = "User already exists 🤦‍♂️."
+                response = "User phle se hai bhiya ji 🤦‍♂️."
         else:
             response = "Please specify a user ID and the duration (e.g., 1hour, 2days, 3weeks, 4months) to add 😘."
     else:
-        response = "You have not purchased yet purchase now from:- @venomXcrazy."
+        response = "चचा भइया तुमने खरीदो न है इसलिए Dm:- @TRUSTVIP_MOD0."
 
     bot.reply_to(message, response)
 
@@ -189,7 +189,7 @@ def remove_user(message):
             response = '''Please Specify A User ID to Remove. 
 ✅ Usage: /remove <userid>'''
     else:
-        response = "You have not purchased yet purchase now from:- @venomXcrazy 🙇."
+        response = "चचा भइया तुमने खरीदो न है इसलिए Dm:- @TRUSTVIP_MOD0 🙇."
 
     bot.reply_to(message, response)
 
@@ -208,7 +208,7 @@ def clear_logs_command(message):
         except FileNotFoundError:
             response = "Logs are already cleared ❌."
     else:
-        response = "You have not purchased yet purchase now from :- @venomXcrazy ❄."
+        response = "You have not purchased yet purchase now from :- @TRUSTVIP_MOD0 ❄."
     bot.reply_to(message, response)
 
 
@@ -227,7 +227,7 @@ def clear_users_command(message):
         except FileNotFoundError:
             response = "users are already cleared ❌."
     else:
-        response = "ꜰʀᴇᴇ ᴋᴇ ᴅʜᴀʀᴍ ꜱʜᴀʟᴀ ʜᴀɪ ᴋʏᴀ ᴊᴏ ᴍᴜ ᴜᴛᴛʜᴀ ᴋᴀɪ ᴋʜɪ ʙʜɪ ɢᴜꜱ ʀʜᴀɪ ʜᴏ ʙᴜʏ ᴋʀᴏ ꜰʀᴇᴇ ᴍᴀɪ ᴋᴜᴄʜ ɴʜɪ ᴍɪʟᴛᴀ ʙᴜʏ:- @venomXcrazy 🙇."
+        response = "TERA BAAP CHOR KE GYA THA KI TERI MA DM:- @TRUSTVIP_MOD0 🙇."
     bot.reply_to(message, response)
  
 
@@ -252,7 +252,7 @@ def show_all_users(message):
         except FileNotFoundError:
             response = "No data found ❌"
     else:
-        response = "ꜰʀᴇᴇ ᴋᴇ ᴅʜᴀʀᴍ ꜱʜᴀʟᴀ ʜᴀɪ ᴋʏᴀ ᴊᴏ ᴍᴜ ᴜᴛᴛʜᴀ ᴋᴀɪ ᴋʜɪ ʙʜɪ ɢᴜꜱ ʀʜᴀɪ ʜᴏ ʙᴜʏ ᴋʀᴏ ꜰʀᴇᴇ ᴍᴀɪ ᴋᴜᴄʜ ɴʜɪ ᴍɪʟᴛᴀ ʙᴜʏ:- @venomXcrazy ❄."
+        response = "TERA BAAP CHOR KE GYA THA KI TERI MA DM:- @TRUSTVIP_MOD0 ❄."
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['logs'])
@@ -270,7 +270,7 @@ def show_recent_logs(message):
             response = "No data found ❌"
             bot.reply_to(message, response)
     else:
-        response = "ꜰʀᴇᴇ ᴋᴇ ᴅʜᴀʀᴍ ꜱʜᴀʟᴀ ʜᴀɪ ᴋʏᴀ ᴊᴏ ᴍᴜ ᴜᴛᴛʜᴀ ᴋᴀɪ ᴋʜɪ ʙʜɪ ɢᴜꜱ ʀʜᴀɪ ʜᴏ ʙᴜʏ ᴋʀᴏ ꜰʀᴇᴇ ᴍᴀɪ ᴋᴜᴄʜ ɴʜɪ ᴍɪʟᴛᴀ ʙᴜʏ:- @venomXcrazy ❄."
+        response = "TERA BAAP CHOR KE GYA THA KI TERI MA DM:- @TRUSTVIP_MOD0 ❄."
         bot.reply_to(message, response)
 
 
@@ -279,13 +279,57 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
-    response = f"{username}, 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃.🔥🔥\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of @venomXcrazy"
+    response = f"{username}, 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃.🔥🔥\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of @TRUSTVIP_MOD0"
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /bgmi command
 bgmi_cooldown = {}
 
 COOLDOWN_TIME =0
+
+# Handler for /prize command
+@bot.message_handler(commands=['prize'])
+record_command_logs(user_id, '/prize', ✅BGMI POWERFUL  DDOS 
+
+⭕️ 40+ KILLS MINIMUM 
+
+⭕️ DDOS BOT 24×7 ONLINE 
+
+♨️1 HOUR 15 RS
+
+♨️1 DAY 35 RS
+
+♨️1 WEEK 199 RS
+
+♨️1 MONTH 299 RS
+
+♨️FULL SEASON 399 RS
+
+♨️ YOUR OWN DDOS BOT 499 RS DISCOUNT AVAILABLE 
+
+DM :- @TRUSTVIP_MOD0)
+else:
+    response = "✅ Usage :- /prize ✅BGMI POWERFUL  DDOS 
+
+⭕️ 40+ KILLS MINIMUM 
+
+⭕️ DDOS BOT 24×7 ONLINE 
+
+♨️1 HOUR 15 RS
+
+♨️1 DAY 35 RS
+
+♨️1 WEEK 199 RS
+
+♨️1 MONTH 299 RS
+
+♨️FULL SEASON 399 RS
+
+♨️ YOUR OWN DDOS BOT 499 RS DISCOUNT AVAILABLE 
+
+DM :- @TRUSTVIP_MOD0"
+
+bot.reply_to(message, response)
 
 # Handler for /bgmi command
 @bot.message_handler(commands=['bgmi'])
@@ -320,7 +364,7 @@ def handle_bgmi(message):
         else:
             response = "✅ Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
     else:
-        response = ("🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command. DM TO BUY ACCESS:- @venomXcrazy")
+        response = ("अरे चोमू  ACCESS TO BUY KRLE DM:- @TRUSTVIP_MOD0")
 
     bot.reply_to(message, response)
 
@@ -357,8 +401,9 @@ def show_help(message):
 🤖 To See Admin Commands:
 💥 /admincmd : Shows All Admin Commands.
 
-Buy From :- @venomXcrazy
-Official Channel :- https://t.me/V3NOM_CH3AT
+Buy From :- @TRUSTVIP_MOD0
+free ddos kuuta :- https://t.me/+EZuEJ6gdfxQ1YWM1
+official channel :- https://t.me/+Qdp2vroIZes5ZmU9
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -375,7 +420,7 @@ def welcome_start(message):
     user_name = message.from_user.first_name
     response = f'''❄️ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴅᴅᴏs ʙᴏᴛ, {user_name}! ᴛʜɪs ɪs ʜɪɢʜ ǫᴜᴀʟɪᴛʏ sᴇʀᴠᴇʀ ʙᴀsᴇᴅ ᴅᴅᴏs. ᴛᴏ ɢᴇᴛ ᴀᴄᴄᴇss.
 🤖Try To Run This Command : /help 
-✅BUY :- @venomXcrazy'''
+✅BUY :- @TRUSTVIP_MOD0🏆'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['rules'])
