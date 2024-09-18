@@ -351,7 +351,7 @@ def show_help(message):
 💥 /bgmi : Method For Bgmi Servers. 
 💥 /rules : Please Check Before Use !!.
 💥 /mylogs : To Check Your Recents Attacks.
-💥 /plan : Checkout Our Botnet Rates.
+💥 /prize  : Checkout Our Botnet Rates.
 💥 /myinfo : TO Check Your WHOLE INFO.
 
 🤖 To See Admin Commands:
@@ -386,7 +386,7 @@ def welcome_rules(message):
 
 1. Dont Run Too Many Attacks !! Cause A Ban From Bot
 2. Dont Run 2 Attacks At Same Time Becz If U Then U Got Banned From Bot.
-3. MAKE SURE YOU JOINED https://t.me/venomcha7 OTHERWISE NOT WORK
+3. MAKE SURE YOU JOINED https://t.me/+Qdp2vroIZes5ZmU9
 4. We Daily Checks The Logs So Follow these rules to avoid Ban!!'''
     bot.reply_to(message, response)
 
