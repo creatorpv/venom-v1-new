@@ -208,7 +208,7 @@ def clear_logs_command(message):
         except FileNotFoundError:
             response = "Logs are already cleared ❌."
     else:
-        response = "❌ ITNA TUMHE BHI PTA HOGA BINA ACCES KE NAHI CHLEGA❌ BUY ACCES - @TRUSTVIP_MOD0 ❄."
+        response = "अरे चोमू BINA ACCESS KE KESEचलायेगा BUY ACCES - @TRUSTVIP_MOD0 ❄."
     bot.reply_to(message, response)
 
 
@@ -320,7 +320,7 @@ def handle_bgmi(message):
         else:
             response = "✅ Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
     else:
-        response = ("❌ ITNA TUMHE BHI PTA HOGA /bgmi BINA ACCES KE NAHI CHLEGA❌ BUY ACCES - @TRUSTVIP_MOD0")
+        response = ("अरे चोमू BINA ACCESS KE KESEचलायेगा BUY ACCES - @TRUSTVIP_MOD0")
 
     bot.reply_to(message, response)
 
@@ -359,6 +359,7 @@ def show_help(message):
 
 Buy From :- @TRUSTVIP_MOD0
 Official Channel :- https://t.me/+S1TgBJyhBic3ZDJl
+Free ddos kuutaa :- https://t.me/+EZuEJ6gdfxQ1YWM1
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -389,7 +390,7 @@ def welcome_rules(message):
 4. We Daily Checks The Logs So Follow these rules to avoid Ban!!'''
     bot.reply_to(message, response)
 
-@bot.message_handler(commands=['plan'])
+@bot.message_handler(commands=['prize'])
 def welcome_plan(message):
     user_name = message.from_user.first_name
     response = f'''{user_name}, Brother Only 1 Plan Is Powerfull Then Any Other Ddos !!:
@@ -399,10 +400,25 @@ Vip 🌟 :
 > After Attack Limit : 10 sec
 -> Concurrents Attack : 5
 
-Pr-ice List💸 :
-Day-->80 Rs
-Week-->400 Rs
-Month-->1000 Rs
+✅BGMI POWERFUL  DDOS 
+
+⭕️ 40+ KILLS MINIMUM 
+
+⭕️ DDOS BOT 24×7 ONLINE 
+
+♨️1 HOUR 15 RS
+
+♨️3DAY 100 RS
+
+♨️1 WEEK 250 RS
+
+♨️1 MONTH 370 RS
+
+♨️ LIFETIME 800 RS 
+
+♨️ YOUR OWN DDOS BOT 499 RS DISCOUNT AVAILABLE 
+
+DM :- @TRUSTVIP_MOD0
 '''
     bot.reply_to(message, response)
 
